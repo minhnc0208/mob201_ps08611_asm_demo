@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/back1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:onClick="openCours"
+                android:background="#32D400A6"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_cours"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Cours"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:background="#32D400A6"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_map"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Cours"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:background="#32D400A6"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_news"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Cours"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:background="#32D400A6"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_ime"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Cours"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
